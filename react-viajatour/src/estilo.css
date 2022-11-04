@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #009e22;
+    padding: 50px;
+
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin:auto;
+}
+.row-footer{
+    display:flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding:0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style:none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color:#cecdcd;
+    padding-left: 10px;
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid rgb(12, 12, 12);
+    color: white;
+    background-color: #fcfdfd;
+}
+.footer-col .form-sub input::placeholder{
+    color:rgb(15, 15, 15);
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #f2f3f7;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: rgb(74, 155, 247);
+}
+/*responsivo*/
+@media (max-width:800px) {  
+    .footer-col{
+        width:50%;
+        margin-bottom: 30%;
+    }
+}
+body{
+    background-color: #e3f0ff;
+    min-height: 100vh;
+}
+container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding:0 4%;
+}
+img-bx{
+    width: 60%;    
+}
+img-bx img{
+    width: 30%;
+}
+.jumbotron .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #a5fcac;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;
+}
+
+
+
+
+
